@@ -1,0 +1,61 @@
+@import './variables';
+
+.form {
+  position: relative;
+  width: 300px;
+  background-color: $white;
+  padding: 20px 50px;
+  border-radius: 10px;
+
+  &__wrapper {
+    align-items: center;
+    background: $gradient;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+  }
+
+  &__btn {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: $white;
+    background-color: $btnColor;
+    border: none;
+    border-radius: 4px;
+  }
+
+  &__input-control {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__input-control input,
+  textarea {
+    border: 2px solid $gray;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  &__input-control textarea {
+    resize: vertical;
+  }
+
+  &__input-control input,
+  textarea:focus {
+    outline: 0;
+  }
+
+  &__input-control.error input,
+  &__input-control.error textarea {
+    border-color: $error;
+  }
+
+  &__input-control .error {
+    color: $error;
+    font-size: 9px;
+    height: 13px;
+  }
+}

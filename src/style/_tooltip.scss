@@ -1,0 +1,32 @@
+@import './variables';
+
+.tooltip-success,
+.tooltip-error {
+  width: 300px;
+  height: 50px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 5px;
+  text-align: center;
+  color: $white;
+  background: $success;
+  padding: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.tooltip-error {
+  background-color: $error;
+}
+
+.visible {
+  opacity: 1;
+}
