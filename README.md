@@ -1,2 +1,3 @@
-https://denisshashkov.github.io/test-form/dist/
+## npm start для запуска
+## npm run server для запуска сервера
 
