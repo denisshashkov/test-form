@@ -1,2 +1,2 @@
-https://denisshashkov.github.io/test-form/
+https://denisshashkov.github.io/test-form/dist/
 
